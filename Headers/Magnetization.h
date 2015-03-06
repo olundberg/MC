@@ -44,7 +44,7 @@ if (n2 > nmax)
 	nmax = n2;
 }
 
-magnetization = 1/(L3)*(nmax-(L3-nmax)/2);
+magnetization = (nmax-(L3-nmax)/2);
 
 return magnetization;
 }

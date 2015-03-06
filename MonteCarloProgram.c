@@ -68,7 +68,7 @@ int main(void){
 		
 		
 		/* Calculate Xi, Cv, g */
-        Xi = (m2-m*m);
+        	Xi = (m2-m*m);
 		Cv = (E2-E*E);
 		g = 1 - (m4)/(3*m2*m2);
 		
